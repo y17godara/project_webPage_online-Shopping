@@ -374,13 +374,9 @@ section{
     font-weight: 600;
     background: rgba(209, 0217, 43, 0.8);
 }
-.home .content a
-{
-    background: rgba(209, 0217, 43, 0.5);
-}
 .home .content a:hover
 {
-    background: rgba(209, 0217, 43, .9);
+    background: var(--main-color);
 }
 
 
