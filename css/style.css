@@ -38,13 +38,14 @@ body
 {
     background: #eee;
 }
-.active, .yashBtn:hover {
+.active, .yashBtn:hover
+{
     background: var(--orange);
     border-radius: 2rem;
     padding: .8rem 2rem;
     color: #fff !important;
 
-  }
+}
 
 
 /*CSS*/
@@ -271,7 +272,7 @@ body
 
 /*media queries*/
 
-@media (max-width: 1130px) /*991*/
+@media (max-width: 1300px) /*991 1130 1230*/
 {
     html{
         font-size: 55%;
@@ -280,7 +281,7 @@ body
         padding: 2rem;
     }
 }
-@media (max-width: 850px)
+@media (max-width: 930px) /*850*/
 {
     #menu-btn{
         display: inline-block;
@@ -304,7 +305,13 @@ body
         display: block;
         text-align: center;
     }
-    
+    .active, .yashBtn:hover
+    {   
+    background: #fff !important;
+    border-radius: 2rem;
+    padding: .8rem 2rem;
+    color: var(--black) !important;
+    }
 }
 @media (max-width: 450px)
 {
