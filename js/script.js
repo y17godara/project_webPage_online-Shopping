@@ -1,8 +1,11 @@
 //Content
 //Active Navbar
+//Toggle Menu Bar for Mobiles
 //Toggle Navbar Search Bar
 //Toggle Navbar Cart Bar
 //Toggle Navbar Login Bar
+
+
 
 // Add active class to the current button (highlight it)
 let header = document.getElementById("yashDiv");
@@ -14,6 +17,14 @@ for (let i = 0; i < btns.length; i++) {
         current[0].className = current[0].className.replace(" active", "");
         this.className += " active";
     });
+}
+
+
+//Toggle Menu Bar for Mobiles
+let menuForm = document.querySelector('.navbar');
+
+document.querySelector('#menu-btn').onclick = () => {
+    menuForm.classList.toggle('active');
 }
 
 
