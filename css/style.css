@@ -4,11 +4,11 @@
 :root
 {
     /*Special*/
-    --orange: #0468d7; /*#ff7800*/
+    --main-color: #77a926; /*#ff7800*/
+    --sec-dark: #d1d92b;
     --black: #130f40;
-    --red: #C70039;
-    --blue-dark: #0047AB;
     --light-color: #666;
+    --red: #C70039;
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     --border: .2rem solid rgba(0,0,0,.1);
     --outline: .1rem solid rgba(0,0,0,.1);
@@ -40,13 +40,15 @@ body
 }
 .active, .yashBtn:hover
 {
-    background: var(--orange);
+    background: var(--main-color);
     border-radius: 2rem;
     padding: .8rem 2rem;
     color: #fff !important;
 
 }
-
+section{
+    padding: 2rem 9%;
+}
 
 /*CSS Header Section*/
 .btn
@@ -63,9 +65,9 @@ body
 }
 .btn:hover
 {
-    background: var(--orange);
+    background: var(--main-color);
     color: #fff;
-    border-color: var(--orange);
+    border-color: var(--main-color);
 }
 .header
 {
@@ -107,7 +109,7 @@ body
 }
 .header .icons div:hover
 {
-    background: var(--orange);
+    background: var(--main-color);
     color: #fff;
 }
 #menu-btn
@@ -151,7 +153,7 @@ body
 }
 .header .search-form label:hover
 {
-    color: var(--orange);
+    color: var(--main-color);
 }
 .header .shopping-cart
 {
@@ -265,7 +267,7 @@ body
 }
 .header .login-form p a
 {
-    color: var(--orange);
+    color: var(--main-color);
     text-decoration: underline;
 }
 
@@ -277,6 +279,9 @@ body
         font-size: 55%;
     }
     .header{
+        padding: 2rem;
+    }
+    section{
         padding: 2rem;
     }
 }
@@ -321,10 +326,26 @@ body
         font-size: 50%;
     }
 }
-
+@media (max-width: 346px)
+{
+    .header .logo{
+        display: none;
+    }
+}
 
 /*CSS  Home Section*/
-
+.home 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/image/img_banner-dairy.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 8rem 0;
+    height: 62rem;
+    position: relative;
+}
 
 
 
