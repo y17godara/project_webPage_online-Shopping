@@ -45,6 +45,8 @@ body
     color: #fff !important;
 
   }
+
+
 /*CSS*/
 .btn
 {
@@ -89,10 +91,6 @@ body
     color: var(--black);
     font-weight: 500;
 }
-/* .header .navbar a:hover
-{
-    color: var(--orange);
-} */
 .header .icons div
 {
     height: 4.5rem;
@@ -295,6 +293,10 @@ body
         box-shadow: var(--box-shadow);
         border-radius: .5rem;
         background: #fff;
+    }
+    .header .navbar.active{
+        right: 2rem;
+        transition: .4s linear;
     }
     .header .navbar a{
         font-size: 2rem;
