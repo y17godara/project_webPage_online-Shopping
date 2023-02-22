@@ -343,7 +343,7 @@ section{
     background-position: center;
     background-size: cover;
     margin: 8rem 0;
-    height: 93vh;
+    height: 92.5vh;
 }
 .home .content
 {
@@ -355,19 +355,20 @@ section{
 .home .content h3
 {
     color: var(--black);
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 500;
 }
 .home .content h3 span
 {
-    font-size: 4.3rem;
+    font-size: 5.3rem;
     color: var(--sec-dark);
     font-weight: 700;
 }
 .home .content p
 {
+    width: 40%;
     color: #fff;
-    font-size: 1.9rem;
+    font-size: 2rem;
     padding: 1rem 0;
     line-height: 2.2rem;
     font-weight: 600;
