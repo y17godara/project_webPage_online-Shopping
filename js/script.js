@@ -1,4 +1,6 @@
 //Content
+
+/* Header Section */
 //Active Navbar
 //Toggle Menu Bar for Mobiles
 //Toggle Navbar Search Bar
@@ -6,6 +8,10 @@
 //Toggle Navbar Login Bar
 //On Window Scroll Navbar Icon hide
 
+/* Home Section */
+
+
+/* Header Section*/
 
 
 // Add active class to the current button (highlight it)
@@ -70,8 +76,7 @@ window.scroll = () => {
     loginForm.classList.remove('active');
 }
 
-
-
+/*Home Section*/
 
 
 
