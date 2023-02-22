@@ -338,18 +338,48 @@ section{
 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     background: url(https://media.discordapp.net/attachments/935189135155662878/1078006498115981322/img_banner-dairy.jpg?width=1440&height=693) no-repeat;
     background-position: center;
     background-size: cover;
     margin: 8rem 0;
     height: 62rem;
 }
-
-
-
-
-
+.home .content
+{
+    align-items: center;
+    width: 60rem;
+    margin: 0rem 0rem;
+}
+.home .content h3
+{
+    color: var(--black);
+    font-size: 4rem;
+    font-weight: 500;
+}
+.home .content h3 span
+{
+    font-size: 4.3rem;
+    color: var(--sec-dark);
+    font-weight: 700;
+}
+.home .content p
+{
+    color: #fff;
+    font-size: 1.9rem;
+    padding: 1rem 0;
+    line-height: 2.2rem;
+    font-weight: 600;
+    background: rgba(209, 0217, 43, 0.8);
+}
+.home .content a
+{
+    background: rgba(209, 0217, 43, 0.5);
+}
+.home .content a:hover
+{
+    background: rgba(209, 0217, 43, .9);
+}
 
 
 
