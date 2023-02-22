@@ -286,18 +286,21 @@ body
     #menu-btn{
         display: inline-block;
     }
+    .header .search-form {
+        width: 90% !important;
+    }
     .header .navbar{
         position: absolute;
         top: 110%;
         right: -110%;
         width: 30rem;
         box-shadow: var(--box-shadow);
-        border-radius: .5rem;
         background: #fff;
     }
     .header .navbar.active{
         right: 2rem;
         transition: .4s linear;
+        width: 90%;
     }
     .header .navbar a{
         font-size: 2rem;
@@ -305,7 +308,7 @@ body
         display: block;
         text-align: center;
     }
-    .active, .yashBtn:hover
+    .active, .yashBtn:hover  /*yash extra*/
     {   
     background: #fff !important;
     border-radius: 2rem;
