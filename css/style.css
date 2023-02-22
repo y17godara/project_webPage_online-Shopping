@@ -48,7 +48,7 @@ body
 }
 
 
-/*CSS*/
+/*CSS Header Section*/
 .btn
 {
     margin-top: 1rem;
@@ -133,7 +133,6 @@ body
     right: 2rem;
     transition: .4s linear;
 }
-
 .header .search-form input
 {
     height: 100%;
@@ -322,6 +321,9 @@ body
         font-size: 50%;
     }
 }
+
+
+/*CSS  Home Section*/
 
 
 
