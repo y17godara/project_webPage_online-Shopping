@@ -339,12 +339,13 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/image/img_banner-dairy.jpg) no-repeat;
+    background: url(https://media.discordapp.net/attachments/935189135155662878/1078006498115981322/img_banner-dairy.jpg?width=1440&height=693) no-repeat;
     background-position: center;
     background-size: cover;
     margin: 8rem 0;
     height: 62rem;
 }
+
 
 
 
