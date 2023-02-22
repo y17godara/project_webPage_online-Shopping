@@ -271,7 +271,7 @@ body
 
 /*media queries*/
 
-@media (max-width: 991px)
+@media (max-width: 1130px) /*991*/
 {
     html{
         font-size: 55%;
