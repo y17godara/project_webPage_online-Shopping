@@ -67,14 +67,6 @@ section{
     color: #fff;
     border-color: var(--main-color);
 }
-.heading
-{   
-    text-align: center;
-    padding: 2rem 0;
-    padding-bottom: 3rem;
-    font-size: 6rem;
-    color: var(--black);
-}
 
 /*CSS Header Section*/
 
@@ -280,6 +272,83 @@ section{
     text-decoration: underline;
 }
 
+/*CSS  Home Section*/
+.home 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/image/img_banner-dairy.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 8rem 0;
+    height: 92.5vh;
+}
+.home .content
+{
+    padding: 2rem 3%;
+    position: absolute;
+    align-items: center;
+    width: 90%;
+}
+.home .content h3
+{
+    line-height: 7rem;
+    color: var(--black);
+    font-size: 6rem;
+    font-weight: 500;
+}
+.home .content h3 span
+{
+    font-size: 5.3rem;
+    color: var(--sec-dark);
+    font-weight: 700;
+}
+.home .content p
+{
+    width: 40%;
+    color: #fff;
+    font-size: 1.9rem;
+    padding: 1rem 1rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    background: rgba(209, 0217, 43, 0.8);
+}
+.home .content a:hover
+{
+    background: var(--main-color);
+}
+
+
+/*CSS Features Section*/
+.features
+{
+    height: 100vh;
+    margin-top: -9rem;
+}
+.heading
+{   
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 6rem;
+    color: var(--black);
+}
+.heading span
+{
+    font-size: 5.3rem;
+    color: var(--sec-dark);
+    font-weight: 700;
+    display: inline-block;
+    padding: .5rem 3rem;
+    background: var(--main-color);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%); /*section title pattern*/
+}
+
+
+
+
 /*media queries*/
 
 @media (max-width: 1300px) /*991 1130 1230*/
@@ -334,6 +403,9 @@ section{
     html{
         font-size: 50%;
     }
+    .heading{
+        font-size: 2.5rem;
+    }
 }
 @media (max-width: 346px)
 {
@@ -341,72 +413,6 @@ section{
         display: none;
     }
 }
-
-/*CSS  Home Section*/
-.home 
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(/image/img_banner-dairy.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 8rem 0;
-    height: 92.5vh;
-}
-.home .content
-{
-    padding: 2rem 3%;
-    position: absolute;
-    align-items: center;
-    width: 90%;
-}
-.home .content h3
-{
-    color: var(--black);
-    font-size: 6rem;
-    font-weight: 500;
-}
-.home .content h3 span
-{
-    font-size: 5.3rem;
-    color: var(--sec-dark);
-    font-weight: 700;
-}
-.home .content p
-{
-    width: 40%;
-    color: #fff;
-    font-size: 2rem;
-    padding: 1rem 0;
-    line-height: 2.2rem;
-    font-weight: 600;
-    background: rgba(209, 0217, 43, 0.8);
-}
-.home .content a:hover
-{
-    background: var(--main-color);
-}
-
-
-/*Features Section*/
-.features
-{
-    height: 100vh;
-    margin-top: -9rem;
-}
-.heading span
-{
-    font-size: 5.3rem;
-    color: var(--sec-dark);
-    font-weight: 700;
-    display: inline-block;
-    padding: .5rem 3rem;
-    background: var(--main-color);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    /* clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%55); */
-}
-
 
 
 
