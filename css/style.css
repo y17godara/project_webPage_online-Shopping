@@ -351,7 +351,14 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 5rem;
 }
-
+.features .box-container .box
+{
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1;
+    text-align: center;
+}
 
 
 /*media queries*/
