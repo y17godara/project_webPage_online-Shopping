@@ -49,8 +49,6 @@ body
 section{
     padding: 2rem 9%;
 }
-
-/*CSS Header Section*/
 .btn
 {
     margin-top: 1rem;
@@ -69,6 +67,17 @@ section{
     color: #fff;
     border-color: var(--main-color);
 }
+.heading
+{   
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 6rem;
+    color: var(--black);
+}
+
+/*CSS Header Section*/
+
 .header
 {
     position: fixed;
@@ -381,8 +390,22 @@ section{
 
 
 /*Features Section*/
-
-
+.features
+{
+    height: 100vh;
+    margin-top: -9rem;
+}
+.heading span
+{
+    font-size: 5.3rem;
+    color: var(--sec-dark);
+    font-weight: 700;
+    display: inline-block;
+    padding: .5rem 3rem;
+    background: var(--main-color);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    /* clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%55); */
+}
 
 
 
