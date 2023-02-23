@@ -350,6 +350,7 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 5rem;
+    justify-content: center;
 }
 .features .box-container .box
 {
@@ -426,6 +427,12 @@ section{
 {
     .header .logo{
         display: none;
+    }
+    .features .box-container{
+        grid-template-columns: none;
+        display: grid;
+        gap: 5rem;
+        justify-content: center;
     }
 }
 
