@@ -323,7 +323,7 @@ section{
 /*CSS Features Section*/
 .features
 {
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: -9rem;
 }
 .heading
@@ -385,11 +385,35 @@ section{
     color: var(--light-color);
     padding: 1rem 0;
 }
-.heading .products
-{
-    background: #000;
 
+/* CSS Products */
+
+.products .product-slider
+{
+    padding: 1rem;
 }
+.products .product-slider:first-child
+{
+    padding: 2rem;
+}
+.products .product-slider .wrapper
+{
+    display: flex;
+}
+.products .product-slider .wrapper .box
+{
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
 
 /*Test*/
 footer{
