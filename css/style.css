@@ -356,10 +356,13 @@ section{
     padding: 3rem 2rem;
     background: #fff;
     outline: var(--outline);
-    outline-offset: -1;
+    outline-offset: -1rem;
     text-align: center;
 }
-
+.features .box-container .box img
+{
+    height: 250px;
+}
 
 /*media queries*/
 
