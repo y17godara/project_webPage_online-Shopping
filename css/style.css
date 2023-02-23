@@ -345,7 +345,12 @@ section{
     /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
     clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%); /*section title pattern*/
 }
-
+.features .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5rem;
+}
 
 
 
