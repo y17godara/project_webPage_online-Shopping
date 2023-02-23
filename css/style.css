@@ -9,7 +9,7 @@
     --black: #130f40;
     --light-color: #666;
     --red: #C70039;
-    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.2);
     --border: .2rem solid rgba(0,0,0,.1);
     --outline: .1rem solid rgba(0,0,0,.1);
     --outline-hover: .2rem solid var(--black);
@@ -359,10 +359,18 @@ section{
     outline: var(--outline);
     outline-offset: -1rem;
     text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.features .box-container .box:hover
+{
+    outline: var(--outline-hover);
+    outline-offset: 0rem; 
+    box-shadow: 0 0 100px #eee; 
 }
 .features .box-container .box img
 {
-    height: 250px;
+    padding: 1rem 0;
+    height: 20rem;
 }
 
 /*media queries*/
