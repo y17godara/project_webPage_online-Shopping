@@ -426,6 +426,9 @@ section{
 @media (max-width: 346px)
 {
     .header .logo{
+        font-size: 2rem;
+    }
+    .header .logo .fa-shopping-basket{
         display: none;
     }
     .features .box-container{
