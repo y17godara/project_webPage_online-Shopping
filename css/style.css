@@ -385,7 +385,18 @@ section{
     color: var(--light-color);
     padding: 1rem 0;
 }
+.heading .products
+{
+    background: #000;
 
+}
+
+/*Test*/
+footer{
+    background: #C70039;
+    height: 100vh;
+}
+/*Test*/
 
 /*media queries*/
 
