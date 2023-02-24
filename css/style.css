@@ -13,6 +13,7 @@
     --border: .2rem solid rgba(0,0,0,.1);
     --outline: .1rem solid rgba(0,0,0,.1);
     --outline-hover: .2rem solid var(--black);
+    --yashGrident: linear-gradient(45deg, #77a926, #d1d92b);
 }
 *
 {
@@ -467,8 +468,8 @@ section{
 .contact .container .form
 {
     width: 100%;
-    height: 32rem;
-    background: #77a926;
+    height: 40rem;
+    /* background: #77a926; */
     transition: .2s linear;
     border-radius: .5rem;
     z-index: 1000;
@@ -487,7 +488,7 @@ section{
 }
 .contact .container .form .contact-form
 {
-    background: #b2b2b2;
+    background: linear-gradient(45deg, #77a926, #d1d92b);
     position: relative;
 }
 .contact-form .circle
@@ -495,16 +496,14 @@ section{
     border-radius: 50%;
     background: linear-gradient(135deg, transparent 20%, #77a926);
     position: absolute;
-}
-  
+}  
 .contact-form .circle.one
 {
     width: 130px;
     height: 130px;
     top: 130px;
     right: -40px;
-}
-  
+} 
 .contact-form .circle.two
 {
     width: 80px;
@@ -523,7 +522,8 @@ section{
     top: 50px;
     left: -13px;
 }
-form {
+form
+{
     padding: 2.3rem 2.2rem;
     z-index: 10;
     overflow: hidden;
@@ -532,8 +532,8 @@ form {
 .title
 {
     color: #fff;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 2.5rem;
     line-height: 1;
     margin-bottom: 0.7rem;
 }
@@ -660,6 +660,7 @@ form {
 {
     color: #333;
     margin: 1.5rem 0 2rem 0;
+    font-size: 1.3rem;
 }
 .information
 {
@@ -667,7 +668,7 @@ form {
     color: #555;
     margin: 0.7rem 0;
     align-items: center;
-    font-size: 0.95rem;
+    font-size: 1.2rem;
 }
 .icon
 {
@@ -680,7 +681,7 @@ form {
 }
 .social-media p
 {
-    color: #333;
+    color: var(--black);
 }
 .social-icons
 {
