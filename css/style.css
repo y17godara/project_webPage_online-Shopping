@@ -442,6 +442,58 @@ section{
     color: var(--sec-dark);
 }
 
+/* CSS Contact */
+.container
+{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 3rem 2rem;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    justify-content: center;
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+    display: flex;
+    align-items: center;
+}
+.container:hover
+{
+    outline: var(--outline-hover);
+    outline-offset: 0rem; 
+    box-shadow: 0 0 100px #eee; 
+}
+.container .form
+{
+    width: 100%;
+    height: 32rem;
+    background: #eee;
+    transition: .2s linear;
+    border-radius: .5rem;
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container .form:hover
+{
+    outline-offset: 0rem; 
+    box-shadow: 0 0 100px #eee; 
+}
+.container .form .contact-info
+{
+    background: #eee;
+}
+.container .form .contact-form
+{
+    background: var(--light-color);
+}
+
+
+
+
+
 /*media queries*/
 
 @media (max-width: 1300px) /*991 1130 1230*/
