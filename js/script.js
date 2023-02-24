@@ -8,7 +8,8 @@
 //Toggle Navbar Login Bar
 //On Window Scroll Navbar Icon hide
 
-/* Home Section */
+/* Products Section */
+//Slider Swiper.JS
 
 
 /* Header Section*/
@@ -76,9 +77,10 @@ window.scroll = () => {
     loginForm.classList.remove('active');
 }
 
-/*Home Section*/
 
 
+/* Products Section */
+//Slider Swiper.JS
 
 
 
