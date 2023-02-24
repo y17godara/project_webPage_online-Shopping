@@ -461,7 +461,7 @@ section{
 }
 .contact .container:hover
 {
-    outline: var(--outline-hover);
+    /* outline: var(--outline-hover); */
     outline-offset: 0rem; 
     box-shadow: 0 0 100px #eee; 
 }
@@ -481,10 +481,11 @@ section{
 {
     outline-offset: 0rem; 
     box-shadow: 0 0 100px #eee; 
+    
 }
 .contact .container .form .contact-info
 {
-    background: #eee;
+    background: #fff;
 }
 .contact .container .form .contact-form
 {
@@ -717,28 +718,6 @@ form
     right: 50px;
     opacity: 0.3;
 }
-  
-  /* .big-circle {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background: linear-gradient(to bottom, #1cd4af, #159b80);
-    bottom: 50%;
-    right: 50%;
-    transform: translate(-40%, 38%);
-  }
-  
-  .big-circle:after {
-    content: "";
-    position: absolute;
-    width: 360px;
-    height: 360px;
-    background-color: #fafafa;
-    border-radius: 50%;
-    top: calc(50% - 180px);
-    left: calc(50% - 180px);
-  } */
 .square
 {
     position: absolute;
