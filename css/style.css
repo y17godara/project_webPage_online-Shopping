@@ -778,49 +778,7 @@ form
 
 
 /*test*/
-.content-two .box-container
-{
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 5rem;
-    justify-content: center;
-}
-.content-two .box-container .box
-{
-    width: 35rem;
-    max-width: 36rem;
-    padding: 3rem 2rem;
-    background: #fff;
-    outline: var(--outline);
-    outline-offset: -1rem;
-    text-align: center;
-    box-shadow: var(--box-shadow);
-    transition: .2s linear;
-}
-.content-two .box-container .box:hover
-{
-    outline: var(--outline-hover);
-    outline-offset: 0rem; 
-    box-shadow: 0 0 100px #eee; 
-}
-.content-two .box-container .box img
-{
-    padding: 1rem 0;
-    height: 20rem;
-}
-.content-two .box-container .box h3
-{
-    font-size: 2.5rem;
-    line-height: 1.8;
-    color: var(--black);
-}
-.content-two .box-container .box p
-{
-    font-size: 1.5rem;
-    line-height: 1.8;
-    color: var(--light-color);
-    padding: 1rem 0;
-}
+
 
 
 /*media queries*/
