@@ -322,11 +322,6 @@ section{
 
 
 /*CSS Features Section*/
-.features
-{
-    /* height: 100vh; */
-    /* margin-top: -9rem; */
-}
 .heading
 {   
     text-align: center;
@@ -727,95 +722,82 @@ form
     transform: translate(181%, 11%);
     opacity: 0.2;
 } 
-@media (max-width: 850px) 
+
+/* CSS Reviews Section */
+.review
 {
-    .form {
-      grid-template-columns: 1fr;
-    }
-  
-    .contact-info:before {
-      bottom: initial;
-      top: -75px;
-      right: 65px;
-      transform: scale(0.95);
-    }
-  
-    .contact-form:before {
-      top: -13px;
-      left: initial;
-      right: 70px;
-    }
-  
-    .square {
-      transform: translate(140%, 43%);
-      height: 350px;
-    }
-  
-    .big-circle {
-      bottom: 75%;
-      transform: scale(0.9) translate(-40%, 30%);
-      right: 50%;
-    }
-  
-    .text {
-      margin: 1rem 0 1.5rem 0;
-    }
-  
-    .social-media {
-      padding: 1.5rem 0 0 0;
-    }
+    display: grid;
+    gap: 2rem;
 }
-  
-@media (max-width: 480px) 
+.review .content
 {
-    .container {
-      padding: 1.5rem;
-    }
-  
-    .contact-info:before {
-      display: none;
-    }
-  
-    .square,
-    .big-circle {
-      display: none;
-    }
-  
-    form,
-    .contact-info {
-      padding: 1.7rem 1.6rem;
-    }
-  
-    .text,
-    .information,
-    .social-media p {
-      font-size: 0.8rem;
-    }
-  
-    .title {
-      font-size: 1.15rem;
-    }
-  
-    .social-icons a {
-      width: 30px;
-      height: 30px;
-      line-height: 30px;
-    }
-  
-    .icon {
-      width: 23px;
-    }
-  
-    .input {
-      padding: 0.45rem 1.2rem;
-    }
-  
-    .btn {
-      padding: 0.45rem 1.2rem;
-    }
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;  
+}
+.review .content:hover
+{
+    outline: var(--outline-hover);
+    outline-offset: 0rem; 
+    box-shadow: 0 0 100px #eee; 
+}
+.review .content .yashCustomers
+{
+    gap: 2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yashCustomers .stars .yStar
+{
+    color: var(--main-color);
+    font-size: 3rem;
+}
+.yashCustomers .stars .yStar:hover
+{
+    font-size: 3.5rem;
+    color: var(--sec-dark);
+}
+.yashCustomers .text p b
+{
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--black);
+}
+.yashCustomers .text p 
+{
+    font-size: 1.4rem;
+    color: var(--light-color);
+}
+.review .content-two
+{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
 }
 
-
+.review .content-two .content-box
+{
+    width: 35rem;
+    padding: 2rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;  
+}
+.review .content-two .content-box:hover
+{
+    outline: var(--outline-hover);
+    outline-offset: 0rem; 
+    box-shadow: 0 0 100px #eee; 
+}
 
 
 /*media queries*/
@@ -875,6 +857,15 @@ form
     .heading{
         font-size: 2.5rem;
     }
+    .yashCustomers .stars .yStar
+    {
+        color: var(--main-color);
+        font-size: 2rem;
+    }
+    .yashCustomers .stars .yStar:hover
+    {
+        font-size: 2.5rem;
+    }
 }
 @media (max-width: 346px)
 {
@@ -889,6 +880,92 @@ form
         display: grid;
         gap: 5rem;
         justify-content: center;
+    }
+}
+@media (max-width: 850px) 
+{
+    .form {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-info:before {
+      bottom: initial;
+      top: -75px;
+      right: 65px;
+      transform: scale(0.95);
+    }
+  
+    .contact-form:before {
+      top: -13px;
+      left: initial;
+      right: 70px;
+    }
+  
+    .square {
+      transform: translate(140%, 43%);
+      height: 350px;
+    }
+  
+    .big-circle {
+      bottom: 75%;
+      transform: scale(0.9) translate(-40%, 30%);
+      right: 50%;
+    }
+  
+    .text {
+      margin: 1rem 0 1.5rem 0;
+    }
+  
+    .social-media {
+      padding: 1.5rem 0 0 0;
+    }
+}
+@media (max-width: 480px) 
+{
+    .container {
+      padding: 1.5rem;
+    }
+  
+    .contact-info:before {
+      display: none;
+    }
+  
+    .square,
+    .big-circle {
+      display: none;
+    }
+  
+    form,
+    .contact-info {
+      padding: 1.7rem 1.6rem;
+    }
+  
+    .text,
+    .information,
+    .social-media p {
+      font-size: 0.8rem;
+    }
+  
+    .title {
+      font-size: 1.15rem;
+    }
+  
+    .social-icons a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+  
+    .icon {
+      width: 23px;
+    }
+  
+    .input {
+      padding: 0.45rem 1.2rem;
+    }
+  
+    .btn {
+      padding: 0.45rem 1.2rem;
     }
 }
 
