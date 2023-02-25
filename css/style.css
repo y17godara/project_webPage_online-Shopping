@@ -467,7 +467,7 @@ section{
     /* background: #77a926; */
     transition: .2s linear;
     border-radius: .5rem;
-    z-index: 1000;
+    /* z-index: 1000; */
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -724,11 +724,6 @@ form
 } 
 
 /* CSS Reviews Section */
-.review
-{
-    display: grid;
-    gap: 2rem;
-}
 .review .content
 {
     padding: 3rem 2rem;
@@ -747,7 +742,6 @@ form
 }
 .review .content .yashCustomers
 {
-    gap: 2rem;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -776,27 +770,55 @@ form
 }
 .review .content-two
 {
+    margin-top: 2rem;
     display: flex;
     gap: 5rem;
     justify-content: center;
 }
 
-.review .content-two .content-box
+/*test*/
+.content-two .box-container
+{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5rem;
+    justify-content: center;
+}
+.content-two .box-container .box
 {
     width: 35rem;
-    padding: 2rem 2rem;
+    max-width: 36rem;
+    padding: 3rem 2rem;
     background: #fff;
     outline: var(--outline);
     outline-offset: -1rem;
     text-align: center;
     box-shadow: var(--box-shadow);
-    transition: .2s linear;  
+    transition: .2s linear;
 }
-.review .content-two .content-box:hover
+.content-two .box-container .box:hover
 {
     outline: var(--outline-hover);
     outline-offset: 0rem; 
     box-shadow: 0 0 100px #eee; 
+}
+.content-two .box-container .box img
+{
+    padding: 1rem 0;
+    height: 20rem;
+}
+.content-two .box-container .box h3
+{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+}
+.content-two .box-container .box p
+{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1rem 0;
 }
 
 
@@ -813,6 +835,7 @@ form
     section{
         padding: 2rem;
     }
+    
 }
 @media (max-width: 930px) /*850*/
 {
@@ -876,6 +899,12 @@ form
         display: none;
     }
     .features .box-container{
+        grid-template-columns: none;
+        display: grid;
+        gap: 5rem;
+        justify-content: center;
+    }
+    .content-two .box-container{
         grid-template-columns: none;
         display: grid;
         gap: 5rem;
