@@ -776,14 +776,74 @@ form
     justify-content: center;
 }
 
+/* CSS Blogs Section */
+.blogs .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5rem;
+    justify-content: center;
+}
+.blogs .box-container .box
+{
+    margin-top: 5rem;
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+.blogs .box-container .box:hover
+{
+    outline: var(--outline-hover);
+    outline-offset: 0rem; 
+    box-shadow: 0 0 100px #eee; 
+}
+.blogs .box-container .box img
+{
+    padding: 1rem 0;
+    height: 20rem;
+}
+.blogs .box-container .box h3
+{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+}
+.blogs .box-container .box p
+{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+/* CSS Footer */
+.col .logo
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+
+
 
 /*test*/
 
 
 
+
+
+
+
+
+
 /*media queries*/
 
-@media (max-width: 1300px) /*991 1130 1230*/
+@media (max-width: 1300px)
 {
     html{
         font-size: 55%;
@@ -796,7 +856,7 @@ form
     }
     
 }
-@media (max-width: 930px) /*850*/
+@media (max-width: 930px)
 {
     #menu-btn{
         display: inline-block;
@@ -855,6 +915,12 @@ form
         font-size: 2rem;
     }
     .header .logo .fa-shopping-basket{
+        display: none;
+    }
+    .col .logo{
+        font-size: 2rem;
+    }
+    .col .logo .fa-shopping-basket{
         display: none;
     }
     .features .box-container{
