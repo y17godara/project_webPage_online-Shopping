@@ -527,7 +527,7 @@ form
 }
 .title
 {
-    color: #fff;
+    color: #130f40;
     font-weight: 600;
     font-size: 2.5rem;
     line-height: 1;
@@ -542,10 +542,10 @@ form
 {
     width: 100%;
     outline: none;
-    border: 2px solid #fafafa;
+    border: 2px solid #130f40;
     background: none;
     padding: 0.6rem 1.2rem;
-    color: #fff;
+    color: #130f40;
     font-weight: 500;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
@@ -567,7 +567,7 @@ form
     left: 15px;
     transform: translateY(-50%);
     padding: 0 0.4rem;
-    color: #fafafa;
+    color: #130f40;
     font-size: 0.9rem;
     font-weight: 400;
     pointer-events: none;
@@ -578,6 +578,7 @@ form
 {
     top: 1rem;
     transform: translateY(0);
+    color: #130f40;
 }
 .yashbtn{
     padding: 0.6rem 1.3rem;
@@ -691,7 +692,7 @@ form
     height: 35px;
     border-radius: 5px;
     background: linear-gradient(45deg, #77a926, #d1d92b);
-    color: #fff;
+    color: #eee;
     text-align: center;
     line-height: 35px;
     margin-right: 0.5rem;
@@ -699,7 +700,8 @@ form
 }  
 .social-icons a:hover
 {
-    transform: scale(1.05);
+    color: #fff;
+    transform: scale(1.25);
 } 
 .contact-info:before
 {
@@ -776,6 +778,7 @@ form
     justify-content: center;
 }
 
+
 /* CSS Blogs Section */
 .blogs .box-container
 {
@@ -786,7 +789,7 @@ form
 }
 .blogs .box-container .box
 {
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding: 3rem 2rem;
     background: #fff;
     outline: var(--outline);
@@ -830,9 +833,15 @@ form
 
 
 
-
 /*test*/
-
+footer
+{
+    margin-top: 5rem;
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    background: linear-gradient(to right, #77a926, #d1d92b );
+}
 
 
 
