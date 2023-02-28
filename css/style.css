@@ -830,10 +830,6 @@ form
     font-weight: bolder;
     color: var(--black);
 }
-
-
-
-/*test*/
 footer
 {
     margin-top: 5rem;
@@ -877,7 +873,36 @@ footer .row .col
     width: fit-content;
     position: relative;
 }
+.row .col .f-mail
+{
+    width: fit-content;
+    border-bottom: 0.1rem solid var(--sec-dark);
+    margin: .5rem 0;
+}
+.row .col .yashUl
+{
+    width: fit-content;
+}
+.col .yashUl .yashLi
+{
+    display: grid;
+    padding: .5rem;
+    color: #fff;
+    width: fit-content;
+}
+.row .col .social-media
+{
+    width: fit-content;
+}
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
 
+/*test*/
 
 /*media queries*/
 
@@ -948,13 +973,12 @@ footer .row .col
     }
     footer .row .col
     {
-    flex-basis: 25%;
-    padding: 1rem;
     min-width: 100%;
     }
     .row .col h3
     {
-        text-align: center;
+        margin-bottom: 1rem;
+        /* position: relative; */
     }
 }
 
