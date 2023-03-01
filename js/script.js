@@ -77,8 +77,6 @@ window.scroll = () => {
     loginForm.classList.remove('active');
 }
 
-
-
 /* Products Section */
 //Slider Swiper.JS
 const inputs = document.querySelectorAll(".input");
@@ -99,12 +97,3 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
-
-
-
-
-
-
-
-
-
