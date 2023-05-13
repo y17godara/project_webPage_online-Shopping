@@ -278,7 +278,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/image/img_banner-dairy.jpg) no-repeat;
+    background: url(image/img_banner-dairy.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     margin: 8rem 0;
